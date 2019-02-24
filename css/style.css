@@ -1,0 +1,560 @@
+.header-cust, .footer-cust{
+	background-color: #2b6c89;
+	color: white;
+	width: 100%;
+
+}
+body{
+	font-size: 18px;
+	font-family: sans-serif;
+}
+header
+{
+	margin:-16px;
+}
+.header-cust{
+	position: absolute;
+	height:50px;
+	margin: 0px;
+	border: 0px;
+	top:0px;
+	clear: both;
+	
+}
+.footer-cust{
+    height: 50px;
+    clear: both;
+    position: absolute;
+    bottom: 0px;
+    margin: 0px;
+    text-align: center;
+    padding-top: 12px;
+    border:0px;
+    z-index: 2px;
+
+}
+.brand{
+	position: absolute !important;
+	left: 70px;
+	box-shadow: none !important;
+	background-color: #2b6c89 !important;
+}
+.navigation{
+	position: relative;
+	left: 605px;
+	float:left;
+	list-style: none;
+	clear: both;
+	z-index: 2;
+}
+.navigation li{
+	float: left;
+	padding: 0px 25px;
+}
+.logo{
+    background-color: #2b6c89;
+    margin-top: 50px;
+    width: 200px;
+    height: 146px;
+    border: none;
+    margin-left: 36px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 61px;
+    border-radius: 12px;
+    box-shadow: 0 3.12px 8px 2px #bbbbbb;
+    position: fixed;
+    clear: both;
+}
+.user-information{
+	border: 1px solid #7e7979;
+	width: 700px;
+	position: absolute;
+	left: 293px;
+	height: 350px;
+	margin-top: 40px;
+	padding-top: 12px;
+	top: 67px;
+
+}
+.table-cust{
+	padding-top:41px;
+}
+td{
+	width: 50px;
+	height: 20px;
+	padding: 1px;
+	font-size: 20px;
+	font-family: sans-serif;
+}
+.user-details{
+	position: absolute;
+	left: 280px;
+	top: 40px;
+}
+.input-cust{
+    height: 28px;
+    padding: 4px;
+    border: 1px solid;
+    width: 232px;
+    font-size: 19px;
+}
+
+.button-cust{
+	cursor: pointer;
+	position: absolute;
+    padding: 9px;
+    width: auto;
+    border: none;
+    background: black;
+    color: white;
+    text-align: center;
+    font-size: 23px;
+    border-radius: 7.5px;
+    box-shadow: 0 3.12px 8px 2px #bbbbbb;
+}
+.button-cust a{
+	text-decoration: none;
+	color: white;
+}
+.button-cust:hover{
+	box-shadow: 0px 0px 0px 0px #ffffff;
+}
+.signup{
+	left: 135px;
+	top: 241px;
+}
+.signin{
+	left: 248px;
+	top: 241px;
+}
+.signup a{
+	text-decoration: none;
+	color:white;
+}
+.brand  a{
+	text-decoration: none;
+	color:white;
+}
+ .navigation  a{
+	text-decoration: none;
+	color:white;
+}
+.signin  a{
+	text-decoration: none;
+	color:white;
+}
+.forgetpassword a{
+	text-decoration: none;
+	color:white;
+}
+.forgetpassword{
+	text-decoration: none;
+	color:white;
+	top: 241px;
+	left:-71px;
+	width: 55%;
+}
+/*product details*/
+.productDetails{
+	border:1px solid black;
+	width: auto;
+	height: 500px;
+	position: relative;
+	clear: both;
+	top: 50px;
+	margin: 20px;
+	overflow: auto;
+}
+.productview{
+	width: 1000px;
+    overflow: auto;
+    clear: both;
+    border: 1px solid;
+    height: 425px;
+    position: absolute;
+    top: 50px;
+    float: left;
+    left: 229px;
+}
+.product-section{
+	border:1px solid black;
+	width:195px;
+	height: 425px;
+	position: relative;
+	top: 30px;
+	margin: 20px;
+	overflow: auto;
+
+}
+.product{
+    border: 1px solid black;
+    box-shadow: 0px 20px 49px -5px #bbb;
+    width: 186px;
+    height: 166px;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 25px;
+    font-family: sans-serif;
+    cursor:pointer;
+}
+.product:hover{
+	box-shadow: none;
+}
+.e-detail{
+	position: absolute;
+	top:50px;
+	left:28%;
+}
+.f-detail{
+	position: absolute;
+	float:left;
+	top:50px;
+	right:28%;
+}
+.c-detail{
+	position: absolute;
+	top:300px;
+	left:28%;
+	clear: both;
+}
+.l-detail{
+	float: left;
+	position: absolute;
+	top:300px;
+	right:28%;	
+}
+.m-detail{
+	position: absolute;
+	top:558px;
+	left:28%;
+	clear: both;
+	margin-bottom: 25px;
+}
+.ca-detail{
+	float: left;
+	position: absolute;
+	top:558px;
+	right:28%;	
+}
+/*/product list*/
+.p-list{
+	border: 1px solid;
+	padding: 3px;
+	text-align: center;
+	margin: 2px;
+	box-shadow: 0px 20px 49px -5px #bbb;
+		
+}
+.p-list:hover{
+	box-shadow: none;
+}
+.p-list a{
+	text-decoration: none;
+	color: black;
+}
+/*///productdetail-view*/
+.productviewmain{
+	overflow: auto;
+}
+.productviewmain a{
+	text-decoration: none;
+	color:black;
+}
+.product a{
+	color:black;
+	text-decoration: none;
+}
+/*.list-cust-p{
+
+}*/
+.list-num{
+	padding: 10px 16px;
+    background-color: black;
+    color: white;
+    border: none;
+    bottom: 0px;
+    right: 0px;
+    cursor: pointer;
+    float: left;
+    list-style-type: none;
+    margin: 5px;
+}
+.list-num a{
+	color: white;
+	font-size: 18px;
+}
+.list-cust-p{
+    clear: both;
+    position: relative;
+    bottom: -370px;
+    left: 39%;
+    position: absolute;
+}
+
+/*////productdescription*/
+.productimage{
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	top:50px;
+	left: 170px;
+	border: 1px solid;
+}
+.box{
+	height: 42px;
+	width: 50px;
+	border: 1px solid;
+	list-style: none;
+	padding:5px;
+	float: left;
+	top:282px;
+	text-align:center;
+	padding-top: 15px;
+}
+.box3{
+	position: absolute;
+	left: 356px;
+}
+.box2{
+	position: absolute;
+	left:240px;
+}
+.box1{
+	position: absolute;
+	left: 129px;
+}
+.p-detail{
+	height: 289px;
+	width: 450px;
+	border: 1px solid;
+	list-style: none;
+	padding:5px;
+	float: left;
+	position: absolute;
+	clear: both;
+	top:50px;
+	right:80px;
+	text-align:center;
+	padding-top: 15px;
+}
+.bar{
+	height: 45px;
+	width: 1050px;
+	border: 1px solid;
+	position: absolute;
+	clear: both;
+	bottom:80px;
+	right:80px;
+
+}
+.a-cart{
+	width: 100px;
+	border: 1px solid;
+	position: absolute;
+	clear: both;
+	bottom:30px;
+	right:80px;
+	text-align: center;
+}
+.a-cart a{
+	color: white;
+	text-decoration: none;
+}
+/*/////cartpage*/
+.p-bar{
+	height: 200px;
+	width: 1150px;
+	border: 1px solid;
+}
+.pb1{
+	position: relative;
+	clear: both;
+	top:90px;
+	left:80px;
+}
+.pb2{
+	position: relative;
+	clear: both;
+	top: 120px;
+	left:80px;
+}
+.pb3{
+	position: relative;
+	clear: both;
+	top:155px;
+	left:80px;
+}
+.p-image{
+	height: 132px;
+    width: 180px;
+    border: 1px solid;
+}
+.pi{
+	position: absolute;
+    clear: both;
+    top: 30px;
+    left: 40px;	
+}
+.pi1{
+	position: absolute;
+    clear: both;
+    top: 30px;
+    left: 40px;	
+}
+.pi2{
+	position: absolute;
+    clear: both;
+    top: 30px;
+    left: 40px;	
+}
+.pi3{
+	position: absolute;
+    clear: both;
+    top: 30px;
+    left: 40px;	
+}
+.pi4{
+	position: absolute;
+    clear: both;
+    top: 30px;
+    left: 40px;	
+}
+/*//adding vendor page*/
+.Remove-v{
+	position: absolute;
+    float: left;
+    top: 183px;
+    left: 420px;
+    width: auto;
+}
+.add-v{
+	position: absolute;
+    float: left;
+    top: 183px;
+    left: 120px;
+    width: auto;
+}
+
+/*////vendor informatioin page*/
+.vendor{
+	height: 35px;
+	width: 252px;
+	border: 1px solid;
+}
+.v1{
+	top:35px;
+	left:35px;
+	position: relative;
+	float: left;	
+}
+.v2{
+	top:35px;
+	left:335px;
+	position: absolute;
+}
+.v-info{
+	height: 335px;
+	width: 1152px;
+	border: 1px solid;
+	top:135px;
+	left:35px;
+	position: absolute;
+	clear: both;
+	overflow: auto;
+}
+.v-detail{
+	height: auto;
+    width: 352px;
+    top: 100px;
+    float: right;
+    right: 110px;
+    position: relative;
+    clear: both;
+    margin: 7px;
+}
+.add-vendor{
+	height: auto;
+    width: 302px;
+    border: 1px solid;
+    top: 144px;
+    float: right;
+    right: 300px;
+    position: relative;
+    clear: both;
+    margin: 7px;
+}
+.add-v a{
+	color: white;
+}
+.Back-c{
+	right: 0px;
+	top:0px;
+	margin: 3px;
+}
+.Back-c a{
+	/*clear: both;*/
+}
+.admin-btn{
+	width: auto;
+	margin: 20px;
+	position: fixed;
+	right: 32px;
+}
+.add-v-details{
+	position: relative;
+	top: 20px;
+	left: 50px;
+	width: auto;
+	
+}
+.add-v-details a{
+	color: white !important;
+}
+.back-v-cust{
+	position: relative;
+	top: 20px;
+	left: 200px;
+	clear: both;
+}
+.back-v-cust a{
+	color: white;
+	text-decoration: none;
+}
+.vendor-info{
+	border:1px solid;
+	height: 296px;
+	width: 901px;
+	position: relative;
+	top: 60px;
+	left:60px;
+}
+.vendor-info td{
+	padding: 12px 100px;
+	border:1px solid ;	
+	width: auto;
+}
+.vendor a{
+	color: white;
+	text-decoration: none;
+}
+.add-product{
+	position: fixed;
+	left:100px;
+	top: 420px;
+}
+.p-logo p{
+	margin-top: 37px;
+	margin-left: 2px;
+}
+.prd-view{
+	top:20px;
+	left:20px;
+	float: left;
+	position: relative;
+}
+.prd-remove{
+	top: 20px;
+	left: 150px;
+
+}

@@ -1,0 +1,11 @@
+.header-cust, .footer-cust{
+	background-color: black;
+	width: 100%
+	height:200px;
+	color: white;
+}
+.navigation{
+	float:left;
+	padding-left: 50px;
+}
+
